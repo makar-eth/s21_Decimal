@@ -1,6 +1,6 @@
 OUTDIR = $(shell cd ../build && pwd)
 UNAME = $(shell uname -s)
-CC = gcc -Wall -Werror -Wextra -std=c11
+CC = gcc -Wall -Werror -Wextra -std=c11 -g
 SOURCES_LIB = bits_forverter.o other_forverter.o arithmetic_forverter.o another_forverter.o comparison_forverter.o convertion_parsing_forverter.o
 SOURCES_TEST = bits.o other.o arithmetic.o another.o comparison.o convertion_parsing.o
 OUTNAME = "tests"
